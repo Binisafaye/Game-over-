@@ -5,7 +5,7 @@ import {defineConfig} from 'vite';
 
 export default defineConfig(() => {
   return {
-    `base:'/Game-over-/'`
+    base: /Game-over-/',`
     plugins: [react(), tailwindcss()],
     resolve: {
       alias: {
